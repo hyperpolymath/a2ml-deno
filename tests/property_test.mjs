@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: PMPL-1.0-or-later
+// SPDX-License-Identifier: MPL-2.0
 //
 // tests/property_test.mjs — Property-based tests for a2ml-deno.
 //
@@ -142,7 +142,7 @@ Deno.test("property: documents with only directives have non-empty directives ar
   const directiveInputs = [
     "@version: 1.0\n",
     "@author: Alice\n",
-    "@license: PMPL-1.0-or-later\n",
+    "@license: MPL-2.0\n",
   ];
   for (const input of directiveInputs) {
     const result = parse(input);
